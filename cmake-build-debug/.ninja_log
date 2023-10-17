@@ -1,0 +1,11 @@
+# ninja log v5
+702	780	1697527611192341740	Project_2	76985e75f7d386ed
+2	701	1697527611103822217	CMakeFiles/Project_2.dir/round-robin-basic.c.o	8e7856f73841b2d3
+1	401	1697513191341652459	CMakeFiles/Project_2.dir/main.c.o	3d9e557e5fb3383b
+0	849	1697529972405062156	build.ninja	fd0c87037d5f4662
+0	328	1697529984669584829	CMakeFiles/Project_2.dir/mpi-fish-communication.c.o	f9e5a4fc09f3c03
+329	398	1697529984743783021	Project_2	5be1de001cdf3d00
+2	317	1697530025455706520	CMakeFiles/Project_2.dir/mpi-fish-communication.c.o	f9e5a4fc09f3c03
+317	387	1697530025529479559	Project_2	5be1de001cdf3d00
+0	369	1697530135917599637	CMakeFiles/Project_2.dir/mpi-fish-communication.c.o	f9e5a4fc09f3c03
+369	446	1697530135997463104	Project_2	5be1de001cdf3d00
