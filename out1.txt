@@ -1,0 +1,1 @@
+I am thread 0 of process 0

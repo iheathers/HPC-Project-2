@@ -505,3 +505,454 @@ events:
         
       exitCode: 0
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-iNisLV"
+      binary: "/Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-iNisLV"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: /Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-iNisLV
+        
+        Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja -v cmTC_3be96 && [1/2] /opt/homebrew/bin/gcc-13  -isystem /opt/homebrew/Cellar/open-mpi/4.1.5/include -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fdiagnostics-color=always -o CMakeFiles/cmTC_3be96.dir/test_mpi.c.o -c '/Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-iNisLV/test_mpi.c'
+        [2/2] : && /opt/homebrew/bin/gcc-13 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/Cellar/hwloc/2.9.2/lib -L/opt/homebrew/Cellar/libevent/2.1.12/lib CMakeFiles/cmTC_3be96.dir/test_mpi.c.o -o cmTC_3be96  /opt/homebrew/Cellar/open-mpi/4.1.5/lib/libmpi.dylib && :
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-T7FEAw"
+      binary: "/Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-T7FEAw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: /Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-T7FEAw
+        
+        Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja -v cmTC_a4a7b && [1/2] /opt/homebrew/bin/gcc-13  -isystem /opt/homebrew/Cellar/open-mpi/4.1.5/include -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fdiagnostics-color=always -o CMakeFiles/cmTC_a4a7b.dir/test_mpi.c.o -c '/Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-T7FEAw/test_mpi.c'
+        [2/2] : && /opt/homebrew/bin/gcc-13 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/Cellar/hwloc/2.9.2/lib -L/opt/homebrew/Cellar/libevent/2.1.12/lib CMakeFiles/cmTC_a4a7b.dir/test_mpi.c.o -o cmTC_a4a7b  /opt/homebrew/Cellar/open-mpi/4.1.5/lib/libmpi.dylib && :
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:10 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3MsG7h"
+      binary: "/Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3MsG7h"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: /Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3MsG7h
+        
+        Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja -v cmTC_a2bdc && [1/2] /opt/homebrew/bin/gcc-13  -isystem /opt/homebrew/Cellar/open-mpi/4.1.5/include -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fdiagnostics-color=always -o CMakeFiles/cmTC_a2bdc.dir/test_mpi.c.o -c '/Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3MsG7h/test_mpi.c'
+        [2/2] : && /opt/homebrew/bin/gcc-13 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/Cellar/hwloc/2.9.2/lib -L/opt/homebrew/Cellar/libevent/2.1.12/lib CMakeFiles/cmTC_a2bdc.dir/test_mpi.c.o -o cmTC_a2bdc  /opt/homebrew/Cellar/open-mpi/4.1.5/lib/libmpi.dylib && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindOpenMP.cmake:483 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:13 (find_package)"
+    description: "Detecting C OpenMP compiler info"
+    directories:
+      source: "/Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-e6OWHn"
+      binary: "/Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-e6OWHn"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_C_fopenmp"
+      cached: true
+      stdout: |
+        Change Dir: /Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-e6OWHn
+        
+        Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja -v cmTC_2a752 && [1/2] /opt/homebrew/bin/gcc-13   -fopenmp -v -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fdiagnostics-color=always -o CMakeFiles/cmTC_2a752.dir/OpenMPTryFlag.c.o -c '/Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-e6OWHn/OpenMPTryFlag.c'
+        Using built-in specs.
+        COLLECT_GCC=/opt/homebrew/bin/gcc-13
+        Target: aarch64-apple-darwin23
+        Configured with: ../configure --prefix=/opt/homebrew/opt/gcc --libdir=/opt/homebrew/opt/gcc/lib/gcc/current --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-13 --with-gmp=/opt/homebrew/opt/gmp --with-mpfr=/opt/homebrew/opt/mpfr --with-mpc=/opt/homebrew/opt/libmpc --with-isl=/opt/homebrew/opt/isl --with-zstd=/opt/homebrew/opt/zstd --with-pkgversion='Homebrew GCC 13.2.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --with-system-zlib --build=aarch64-apple-darwin23 --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk --with-ld=/Library/Developer/CommandLineTools/usr/bin/ld-classic
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.2.0 (Homebrew GCC 13.2.0) 
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-fopenmp' '-v' '-std=gnu11' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk' '-o' 'CMakeFiles/cmTC_2a752.dir/OpenMPTryFlag.c.o' '-c' '-mmacosx-version-min=14.0.0' '-asm_macosx_version_min=14.0' '-nodefaultexport' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_2a752.dir/'
+         /opt/homebrew/Cellar/gcc/13.2.0/bin/../libexec/gcc/aarch64-apple-darwin23/13/cc1 -quiet -v -iprefix /opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/13/ -D__DYNAMIC__ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk /Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-e6OWHn/OpenMPTryFlag.c -fPIC -quiet -dumpdir CMakeFiles/cmTC_2a752.dir/ -dumpbase OpenMPTryFlag.c.c -dumpbase-ext .c -mmacosx-version-min=14.0.0 -mlittle-endian -mabi=lp64 -std=gnu11 -version -fdiagnostics-color=always -fopenmp -o /var/folders/kh/xt8h7lm17f9d_yym8gwszprm0000gn/T//ccVbuJJG.s
+        GNU C11 (Homebrew GCC 13.2.0) version 13.2.0 (aarch64-apple-darwin23)
+        	compiled by GNU C version 13.2.0, GMP version 6.2.1, MPFR version 4.2.0-p12, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/13/../../../../../../aarch64-apple-darwin23/include"
+        ignoring duplicate directory "/opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin23/13/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/local/include"
+        ignoring duplicate directory "/opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin23/13/include-fixed"
+        ignoring nonexistent directory "/opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin23/13/../../../../../../aarch64-apple-darwin23/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/13/include
+         /opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/13/include-fixed
+         /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks
+        End of search list.
+        Compiler executable checksum: f4eb2dfd59f2098fdaf4315c3ea1706a
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-fopenmp' '-v' '-std=gnu11' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk' '-o' 'CMakeFiles/cmTC_2a752.dir/OpenMPTryFlag.c.o' '-c' '-mmacosx-version-min=14.0.0'  '-nodefaultexport' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_2a752.dir/'
+         as -arch arm64 -v -mmacosx-version-min=14.0 -o CMakeFiles/cmTC_2a752.dir/OpenMPTryFlag.c.o /var/folders/kh/xt8h7lm17f9d_yym8gwszprm0000gn/T//ccVbuJJG.s
+        Apple clang version 15.0.0 (clang-1500.0.40.1)
+        Target: arm64-apple-darwin23.0.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1as -triple arm64-apple-macosx14.0.0 -filetype obj -main-file-name ccVbuJJG.s -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes "-fdebug-compilation-dir=/Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-e6OWHn" -dwarf-debug-producer "Apple clang version 15.0.0 (clang-1500.0.40.1)" -dwarf-version=4 -mrelocation-model pic --mrelax-relocations -mllvm -disable-aligned-alloc-awareness=1 -o CMakeFiles/cmTC_2a752.dir/OpenMPTryFlag.c.o /var/folders/kh/xt8h7lm17f9d_yym8gwszprm0000gn/T//ccVbuJJG.s
+        COMPILER_PATH=/opt/homebrew/Cellar/gcc/13.2.0/bin/../libexec/gcc/aarch64-apple-darwin23/13/:/opt/homebrew/Cellar/gcc/13.2.0/bin/../libexec/gcc/
+        LIBRARY_PATH=/opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/13/:/opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc/:/opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/13/../../../
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-fopenmp' '-v' '-std=gnu11' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk' '-o' 'CMakeFiles/cmTC_2a752.dir/OpenMPTryFlag.c.o' '-c' '-mmacosx-version-min=14.0.0'  '-nodefaultexport' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_2a752.dir/OpenMPTryFlag.c.'
+        [2/2] : && /opt/homebrew/bin/gcc-13 -fopenmp -v -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_2a752.dir/OpenMPTryFlag.c.o -o cmTC_2a752  -v -Wl,-v && :
+        Using built-in specs.
+        COLLECT_GCC=/opt/homebrew/bin/gcc-13
+        COLLECT_LTO_WRAPPER=/opt/homebrew/Cellar/gcc/13.2.0/bin/../libexec/gcc/aarch64-apple-darwin23/13/lto-wrapper
+        Target: aarch64-apple-darwin23
+        Configured with: ../configure --prefix=/opt/homebrew/opt/gcc --libdir=/opt/homebrew/opt/gcc/lib/gcc/current --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-13 --with-gmp=/opt/homebrew/opt/gmp --with-mpfr=/opt/homebrew/opt/mpfr --with-mpc=/opt/homebrew/opt/libmpc --with-isl=/opt/homebrew/opt/isl --with-zstd=/opt/homebrew/opt/zstd --with-pkgversion='Homebrew GCC 13.2.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --with-system-zlib --build=aarch64-apple-darwin23 --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk --with-ld=/Library/Developer/CommandLineTools/usr/bin/ld-classic
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.2.0 (Homebrew GCC 13.2.0) 
+        COMPILER_PATH=/opt/homebrew/Cellar/gcc/13.2.0/bin/../libexec/gcc/aarch64-apple-darwin23/13/:/opt/homebrew/Cellar/gcc/13.2.0/bin/../libexec/gcc/
+        LIBRARY_PATH=/opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/13/:/opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc/:/opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/13/../../../
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk' '-o' 'cmTC_2a752' '-v' '-mmacosx-version-min=14.0.0' '-asm_macosx_version_min=14.0' '-nodefaultexport' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_2a752.'
+         /opt/homebrew/Cellar/gcc/13.2.0/bin/../libexec/gcc/aarch64-apple-darwin23/13/collect2 -dynamic -arch arm64 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -platform_version macos 14.0.0 0.0 -o cmTC_2a752 -L/opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/13 -L/opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc -L/opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/13/../../.. -search_paths_first -headerpad_max_install_names CMakeFiles/cmTC_2a752.dir/OpenMPTryFlag.c.o -v -lgomp -lemutls_w -lgcc -lSystem -lgcc -no_compact_unwind -rpath @loader_path -rpath /opt/homebrew/Cellar/gcc/13.2.0/lib/gcc/current/gcc/aarch64-apple-darwin23/13 -rpath /opt/homebrew/Cellar/gcc/13.2.0/lib/gcc/current/gcc -rpath /opt/homebrew/Cellar/gcc/13.2.0/lib/gcc/current
+        collect2 version 13.2.0
+        /Library/Developer/CommandLineTools/usr/bin/ld-classic -dynamic -arch arm64 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -platform_version macos 14.0.0 0.0 -o cmTC_2a752 -L/opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/13 -L/opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc -L/opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/13/../../.. -search_paths_first -headerpad_max_install_names CMakeFiles/cmTC_2a752.dir/OpenMPTryFlag.c.o -v -lgomp -lemutls_w -lgcc -lSystem -lgcc -no_compact_unwind -rpath @loader_path -rpath /opt/homebrew/Cellar/gcc/13.2.0/lib/gcc/current/gcc/aarch64-apple-darwin23/13 -rpath /opt/homebrew/Cellar/gcc/13.2.0/lib/gcc/current/gcc -rpath /opt/homebrew/Cellar/gcc/13.2.0/lib/gcc/current
+        @(#)PROGRAM:ld-classic  PROJECT:ld64-907
+        BUILD 19:12:38 Aug 11 2023
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+        Library search paths:
+        	/opt/homebrew/Cellar/gcc/13.2.0/lib/gcc/current/gcc/aarch64-apple-darwin23/13
+        	/opt/homebrew/Cellar/gcc/13.2.0/lib/gcc/current/gcc
+        	/opt/homebrew/Cellar/gcc/13.2.0/lib/gcc/current
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/lib
+        Framework search paths:
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindOpenMP.cmake:262 (message)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindOpenMP.cmake:483 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:13 (find_package)"
+    message: |
+      Parsed C OpenMP implicit link information from above output:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-e6OWHn]
+        ignore line: []
+        ignore line: [Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja -v cmTC_2a752 && [1/2] /opt/homebrew/bin/gcc-13   -fopenmp -v -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fdiagnostics-color=always -o CMakeFiles/cmTC_2a752.dir/OpenMPTryFlag.c.o -c '/Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-e6OWHn/OpenMPTryFlag.c']
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/opt/homebrew/bin/gcc-13]
+        ignore line: [Target: aarch64-apple-darwin23]
+        ignore line: [Configured with: ../configure --prefix=/opt/homebrew/opt/gcc --libdir=/opt/homebrew/opt/gcc/lib/gcc/current --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-13 --with-gmp=/opt/homebrew/opt/gmp --with-mpfr=/opt/homebrew/opt/mpfr --with-mpc=/opt/homebrew/opt/libmpc --with-isl=/opt/homebrew/opt/isl --with-zstd=/opt/homebrew/opt/zstd --with-pkgversion='Homebrew GCC 13.2.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --with-system-zlib --build=aarch64-apple-darwin23 --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk --with-ld=/Library/Developer/CommandLineTools/usr/bin/ld-classic]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.2.0 (Homebrew GCC 13.2.0) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-fopenmp' '-v' '-std=gnu11' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk' '-o' 'CMakeFiles/cmTC_2a752.dir/OpenMPTryFlag.c.o' '-c' '-mmacosx-version-min=14.0.0' '-asm_macosx_version_min=14.0' '-nodefaultexport' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_2a752.dir/']
+        ignore line: [ /opt/homebrew/Cellar/gcc/13.2.0/bin/../libexec/gcc/aarch64-apple-darwin23/13/cc1 -quiet -v -iprefix /opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/13/ -D__DYNAMIC__ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk /Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-e6OWHn/OpenMPTryFlag.c -fPIC -quiet -dumpdir CMakeFiles/cmTC_2a752.dir/ -dumpbase OpenMPTryFlag.c.c -dumpbase-ext .c -mmacosx-version-min=14.0.0 -mlittle-endian -mabi=lp64 -std=gnu11 -version -fdiagnostics-color=always -fopenmp -o /var/folders/kh/xt8h7lm17f9d_yym8gwszprm0000gn/T//ccVbuJJG.s]
+        ignore line: [GNU C11 (Homebrew GCC 13.2.0) version 13.2.0 (aarch64-apple-darwin23)]
+        ignore line: [	compiled by GNU C version 13.2.0  GMP version 6.2.1  MPFR version 4.2.0-p12  MPC version 1.3.1  isl version isl-0.26-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/13/../../../../../../aarch64-apple-darwin23/include"]
+        ignore line: [ignoring duplicate directory "/opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin23/13/include"]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/local/include"]
+        ignore line: [ignoring duplicate directory "/opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin23/13/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin23/13/../../../../../../aarch64-apple-darwin23/include"]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/13/include]
+        ignore line: [ /opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/13/include-fixed]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: f4eb2dfd59f2098fdaf4315c3ea1706a]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-fopenmp' '-v' '-std=gnu11' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk' '-o' 'CMakeFiles/cmTC_2a752.dir/OpenMPTryFlag.c.o' '-c' '-mmacosx-version-min=14.0.0'  '-nodefaultexport' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_2a752.dir/']
+        ignore line: [ as -arch arm64 -v -mmacosx-version-min=14.0 -o CMakeFiles/cmTC_2a752.dir/OpenMPTryFlag.c.o /var/folders/kh/xt8h7lm17f9d_yym8gwszprm0000gn/T//ccVbuJJG.s]
+        ignore line: [Apple clang version 15.0.0 (clang-1500.0.40.1)]
+        ignore line: [Target: arm64-apple-darwin23.0.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+        ignore line: [ "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1as -triple arm64-apple-macosx14.0.0 -filetype obj -main-file-name ccVbuJJG.s -target-cpu apple-m1 -target-feature +v8.5a -target-feature +crc -target-feature +lse -target-feature +rdm -target-feature +crypto -target-feature +dotprod -target-feature +fp-armv8 -target-feature +neon -target-feature +fp16fml -target-feature +ras -target-feature +rcpc -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-feature +sm4 -target-feature +sha3 -target-feature +sha2 -target-feature +aes "-fdebug-compilation-dir=/Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-e6OWHn" -dwarf-debug-producer "Apple clang version 15.0.0 (clang-1500.0.40.1)" -dwarf-version=4 -mrelocation-model pic --mrelax-relocations -mllvm -disable-aligned-alloc-awareness=1 -o CMakeFiles/cmTC_2a752.dir/OpenMPTryFlag.c.o /var/folders/kh/xt8h7lm17f9d_yym8gwszprm0000gn/T//ccVbuJJG.s]
+        ignore line: [COMPILER_PATH=/opt/homebrew/Cellar/gcc/13.2.0/bin/../libexec/gcc/aarch64-apple-darwin23/13/:/opt/homebrew/Cellar/gcc/13.2.0/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=/opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/13/:/opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc/:/opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/13/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-fopenmp' '-v' '-std=gnu11' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk' '-o' 'CMakeFiles/cmTC_2a752.dir/OpenMPTryFlag.c.o' '-c' '-mmacosx-version-min=14.0.0'  '-nodefaultexport' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_2a752.dir/OpenMPTryFlag.c.']
+        ignore line: [[2/2] : && /opt/homebrew/bin/gcc-13 -fopenmp -v -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wl -search_paths_first -Wl -headerpad_max_install_names  CMakeFiles/cmTC_2a752.dir/OpenMPTryFlag.c.o -o cmTC_2a752  -v -Wl -v && :]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/opt/homebrew/bin/gcc-13]
+        ignore line: [COLLECT_LTO_WRAPPER=/opt/homebrew/Cellar/gcc/13.2.0/bin/../libexec/gcc/aarch64-apple-darwin23/13/lto-wrapper]
+        ignore line: [Target: aarch64-apple-darwin23]
+        ignore line: [Configured with: ../configure --prefix=/opt/homebrew/opt/gcc --libdir=/opt/homebrew/opt/gcc/lib/gcc/current --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-13 --with-gmp=/opt/homebrew/opt/gmp --with-mpfr=/opt/homebrew/opt/mpfr --with-mpc=/opt/homebrew/opt/libmpc --with-isl=/opt/homebrew/opt/isl --with-zstd=/opt/homebrew/opt/zstd --with-pkgversion='Homebrew GCC 13.2.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --with-system-zlib --build=aarch64-apple-darwin23 --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk --with-ld=/Library/Developer/CommandLineTools/usr/bin/ld-classic]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.2.0 (Homebrew GCC 13.2.0) ]
+        ignore line: [COMPILER_PATH=/opt/homebrew/Cellar/gcc/13.2.0/bin/../libexec/gcc/aarch64-apple-darwin23/13/:/opt/homebrew/Cellar/gcc/13.2.0/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=/opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/13/:/opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc/:/opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/13/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk' '-o' 'cmTC_2a752' '-v' '-mmacosx-version-min=14.0.0' '-asm_macosx_version_min=14.0' '-nodefaultexport' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_2a752.']
+        link line: [ /opt/homebrew/Cellar/gcc/13.2.0/bin/../libexec/gcc/aarch64-apple-darwin23/13/collect2 -dynamic -arch arm64 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -platform_version macos 14.0.0 0.0 -o cmTC_2a752 -L/opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/13 -L/opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc -L/opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/13/../../.. -search_paths_first -headerpad_max_install_names CMakeFiles/cmTC_2a752.dir/OpenMPTryFlag.c.o -v -lgomp -lemutls_w -lgcc -lSystem -lgcc -no_compact_unwind -rpath @loader_path -rpath /opt/homebrew/Cellar/gcc/13.2.0/lib/gcc/current/gcc/aarch64-apple-darwin23/13 -rpath /opt/homebrew/Cellar/gcc/13.2.0/lib/gcc/current/gcc -rpath /opt/homebrew/Cellar/gcc/13.2.0/lib/gcc/current]
+          arg [/opt/homebrew/Cellar/gcc/13.2.0/bin/../libexec/gcc/aarch64-apple-darwin23/13/collect2] ==> ignore
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [arm64] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [14.0.0] ==> ignore
+          arg [0.0] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_2a752] ==> ignore
+          arg [-L/opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/13] ==> dir [/opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/13]
+          arg [-L/opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc] ==> dir [/opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc]
+          arg [-L/opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/13/../../..] ==> dir [/opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/13/../../..]
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [CMakeFiles/cmTC_2a752.dir/OpenMPTryFlag.c.o] ==> ignore
+          arg [-v] ==> ignore
+          arg [-lgomp] ==> lib [gomp]
+          arg [-lemutls_w] ==> lib [emutls_w]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lSystem] ==> lib [System]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-no_compact_unwind] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [@loader_path] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [/opt/homebrew/Cellar/gcc/13.2.0/lib/gcc/current/gcc/aarch64-apple-darwin23/13] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [/opt/homebrew/Cellar/gcc/13.2.0/lib/gcc/current/gcc] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [/opt/homebrew/Cellar/gcc/13.2.0/lib/gcc/current] ==> ignore
+        Library search paths: [;/opt/homebrew/Cellar/gcc/13.2.0/lib/gcc/current/gcc/aarch64-apple-darwin23/13;/opt/homebrew/Cellar/gcc/13.2.0/lib/gcc/current/gcc;/opt/homebrew/Cellar/gcc/13.2.0/lib/gcc/current;/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/lib]
+        Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/]
+        remove lib [System]
+        collapse library dir [/opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/13] ==> [/opt/homebrew/Cellar/gcc/13.2.0/lib/gcc/current/gcc/aarch64-apple-darwin23/13]
+        collapse library dir [/opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc] ==> [/opt/homebrew/Cellar/gcc/13.2.0/lib/gcc/current/gcc]
+        collapse library dir [/opt/homebrew/Cellar/gcc/13.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/13/../../..] ==> [/opt/homebrew/Cellar/gcc/13.2.0/lib/gcc/current]
+        collapse library dir [/opt/homebrew/Cellar/gcc/13.2.0/lib/gcc/current/gcc/aarch64-apple-darwin23/13] ==> [/opt/homebrew/Cellar/gcc/13.2.0/lib/gcc/current/gcc/aarch64-apple-darwin23/13]
+        collapse library dir [/opt/homebrew/Cellar/gcc/13.2.0/lib/gcc/current/gcc] ==> [/opt/homebrew/Cellar/gcc/13.2.0/lib/gcc/current/gcc]
+        collapse library dir [/opt/homebrew/Cellar/gcc/13.2.0/lib/gcc/current] ==> [/opt/homebrew/Cellar/gcc/13.2.0/lib/gcc/current]
+        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/lib]
+        collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks/] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks]
+        implicit libs: [gomp;emutls_w;gcc;gcc]
+        implicit objs: []
+        implicit dirs: [/opt/homebrew/Cellar/gcc/13.2.0/lib/gcc/current/gcc/aarch64-apple-darwin23/13;/opt/homebrew/Cellar/gcc/13.2.0/lib/gcc/current/gcc;/opt/homebrew/Cellar/gcc/13.2.0/lib/gcc/current;/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/lib]
+        implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindOpenMP.cmake:419 (try_compile)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindOpenMP.cmake:557 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:13 (find_package)"
+    description: "Detecting C OpenMP version"
+    directories:
+      source: "/Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pyFO8k"
+      binary: "/Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pyFO8k"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "OpenMP_SPECTEST_C_"
+      cached: true
+      stdout: |
+        Change Dir: /Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pyFO8k
+        
+        Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja -v cmTC_43d66 && [1/2] /opt/homebrew/bin/gcc-13   -fopenmp -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fdiagnostics-color=always -o CMakeFiles/cmTC_43d66.dir/OpenMPCheckVersion.c.o -c '/Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-pyFO8k/OpenMPCheckVersion.c'
+        [2/2] : && /opt/homebrew/bin/gcc-13 -fopenmp -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_43d66.dir/OpenMPCheckVersion.c.o -o cmTC_43d66   && :
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:10 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-12pEHE"
+      binary: "/Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-12pEHE"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: /Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-12pEHE
+        
+        Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja -v cmTC_b556b && [1/2] /opt/homebrew/bin/gcc-13  -isystem /opt/homebrew/Cellar/open-mpi/4.1.5/include -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fdiagnostics-color=always -o CMakeFiles/cmTC_b556b.dir/test_mpi.c.o -c '/Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-12pEHE/test_mpi.c'
+        [2/2] : && /opt/homebrew/bin/gcc-13 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/Cellar/hwloc/2.9.2/lib -L/opt/homebrew/Cellar/libevent/2.1.12/lib CMakeFiles/cmTC_b556b.dir/test_mpi.c.o -o cmTC_b556b  /opt/homebrew/Cellar/open-mpi/4.1.5/lib/libmpi.dylib && :
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:10 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-r25ul5"
+      binary: "/Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-r25ul5"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: /Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-r25ul5
+        
+        Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja -v cmTC_ccd5a && [1/2] /opt/homebrew/bin/gcc-13  -isystem /opt/homebrew/Cellar/open-mpi/4.1.5/include -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/cmTC_ccd5a.dir/test_mpi.c.o -c '/Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-r25ul5/test_mpi.c'
+        [2/2] : && /opt/homebrew/bin/gcc-13 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/Cellar/hwloc/2.9.2/lib -L/opt/homebrew/Cellar/libevent/2.1.12/lib CMakeFiles/cmTC_ccd5a.dir/test_mpi.c.o -o cmTC_ccd5a  /opt/homebrew/Cellar/open-mpi/4.1.5/lib/libmpi.dylib && :
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:10 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Auw6va"
+      binary: "/Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Auw6va"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: /Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Auw6va
+        
+        Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja -v cmTC_29075 && [1/2] /opt/homebrew/bin/gcc-13  -isystem /opt/homebrew/Cellar/open-mpi/4.1.5/include -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fdiagnostics-color=always -o CMakeFiles/cmTC_29075.dir/test_mpi.c.o -c '/Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Auw6va/test_mpi.c'
+        [2/2] : && /opt/homebrew/bin/gcc-13 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/Cellar/hwloc/2.9.2/lib -L/opt/homebrew/Cellar/libevent/2.1.12/lib CMakeFiles/cmTC_29075.dir/test_mpi.c.o -o cmTC_29075  /opt/homebrew/Cellar/open-mpi/4.1.5/lib/libmpi.dylib && :
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:10 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-68QsNC"
+      binary: "/Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-68QsNC"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: /Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-68QsNC
+        
+        Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja -v cmTC_3c45b && [1/2] /opt/homebrew/bin/gcc-13  -isystem /opt/homebrew/Cellar/open-mpi/4.1.5/include -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/cmTC_3c45b.dir/test_mpi.c.o -c '/Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-68QsNC/test_mpi.c'
+        [2/2] : && /opt/homebrew/bin/gcc-13 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/Cellar/hwloc/2.9.2/lib -L/opt/homebrew/Cellar/libevent/2.1.12/lib CMakeFiles/cmTC_3c45b.dir/test_mpi.c.o -o cmTC_3c45b  /opt/homebrew/Cellar/open-mpi/4.1.5/lib/libmpi.dylib && :
+        
+      exitCode: 0
+...

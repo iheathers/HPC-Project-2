@@ -3,9 +3,24 @@ project(Project_2 C)
 
 set(CMAKE_C_STANDARD 11)
 
+# Specify the path to GCC-13 (replace with your actual path)
+set(CMAKE_C_COMPILER /opt/homebrew/bin/gcc-13)
+
+# Find MPI package
 find_package(MPI REQUIRED)
 
-add_executable(Project_2 mpi-fish-communication.c)
+# Find OpenMP package
+find_package(OpenMP REQUIRED)
 
+add_executable(Project_2
+        file-creation.c)
+
+# Enable MPI support
 target_include_directories(Project_2 PRIVATE ${MPI_C_INCLUDE_PATH})
 target_link_libraries(Project_2 PRIVATE MPI::MPI_C)
+
+# Enable OpenMP support
+if (OpenMP_C_FOUND)
+    set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} ${OpenMP_C_FLAGS}")
+    target_link_libraries(Project_2 PRIVATE ${OpenMP_C_LIBRARIES})
+endif ()
