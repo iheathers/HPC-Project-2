@@ -16,6 +16,11 @@ int main(int argc, char *argv[]) {
     MPI_Comm_size(MPI_COMM_WORLD, &num_processes);
     MPI_Comm_rank(MPI_COMM_WORLD, &rank);
 
+
+    int i = 0;
+    while (!i)
+        sleep(2);
+
     if (rank == 0) {
 
         for (int i = 1; i < num_processes; i++) {

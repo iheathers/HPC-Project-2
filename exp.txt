@@ -1,0 +1,18 @@
+process: 94: &rank : 0x16d53eaa8
+
+
+random_number: 0x16cf16a98
+               0x16cf16a98
+
+
+
+i: 0x16cf16aac
+0x16d26eaa4
+
+
+recv: 0x16b782a90
+      0x16d26ea90
+
+
+
+squared: 0x16b782a8c
