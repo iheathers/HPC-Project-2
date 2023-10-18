@@ -14,7 +14,13 @@ find_package(OpenMP REQUIRED)
 
 add_executable(Project_2
 
-        send-recv-squared.c
+
+        #        fish-struct-communication.c
+        #        mpi-fish-communication.c
+
+
+        #        test.c
+        scatter-demo.c
 )
 
 # Enable MPI support

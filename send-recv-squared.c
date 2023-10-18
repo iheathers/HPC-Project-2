@@ -17,9 +17,9 @@ int main(int argc, char *argv[]) {
     MPI_Comm_rank(MPI_COMM_WORLD, &rank);
 
 
-    int i = 0;
-    while (!i)
-        sleep(2);
+//    int i = 0;
+//    while (!i)
+//        sleep(2);
 
 
     if (rank == 0) {
@@ -37,8 +37,6 @@ int main(int argc, char *argv[]) {
 
         for (int i = 0; i < num_processes; i++) {
             int recv_sq;
-
-
             MPI_Recv(&recv_sq, 1, MPI_INT, i, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
             printf("Received %d from %d\n", recv_sq, i);
         }
@@ -47,7 +45,7 @@ int main(int argc, char *argv[]) {
 
         int recv;
         MPI_Recv(&recv, 1, MPI_INT, 0, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
-        printf("Received %d from 0\n", recv);
+//        printf("Received %d from 0\n", recv);
 
 
         int squared = recv * recv;

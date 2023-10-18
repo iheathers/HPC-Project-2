@@ -95,7 +95,7 @@ int main(int argc, char *argv[]) {
         Fish *masterFishes = (Fish *) malloc(NUM_FISHES * sizeof(Fish));
         offset = 0; // Reset offset to 0
 
-        for (int source = 1; source < numtasks; source++) {
+        for (int source = 0; source < numtasks; source++) {
             mtype = 2; // FROM_WORKER
             MPI_Recv(&numFishInWorker, 1, MPI_INT, source, mtype, MPI_COMM_WORLD,
                      MPI_STATUS_IGNORE);
