@@ -49,8 +49,8 @@ cmake_ninja_workdir = /Users/pshre/University$ Projects/hpc-labs/Project$ 2/cmak
 
 build cmake_object_order_depends_target_Project_2: phony || CMakeFiles/Project_2.dir
 
-build CMakeFiles/Project_2.dir/mpi-fish-simulation.c.o: C_COMPILER__Project_2_unscanned_Debug /Users/pshre/University$ Projects/hpc-labs/Project$ 2/mpi-fish-simulation.c || cmake_object_order_depends_target_Project_2
-  DEP_FILE = CMakeFiles/Project_2.dir/mpi-fish-simulation.c.o.d
+build CMakeFiles/Project_2.dir/mpi-fish-simuation-scatter-gather.c.o: C_COMPILER__Project_2_unscanned_Debug /Users/pshre/University$ Projects/hpc-labs/Project$ 2/mpi-fish-simuation-scatter-gather.c || cmake_object_order_depends_target_Project_2
+  DEP_FILE = CMakeFiles/Project_2.dir/mpi-fish-simuation-scatter-gather.c.o.d
   FLAGS = -fopenmp -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fdiagnostics-color=always
   INCLUDES = -isystem /opt/homebrew/Cellar/open-mpi/4.1.5/include
   OBJECT_DIR = CMakeFiles/Project_2.dir
@@ -64,7 +64,7 @@ build CMakeFiles/Project_2.dir/mpi-fish-simulation.c.o: C_COMPILER__Project_2_un
 #############################################
 # Link the executable Project_2
 
-build Project_2: C_EXECUTABLE_LINKER__Project_2_Debug CMakeFiles/Project_2.dir/mpi-fish-simulation.c.o | /opt/homebrew/Cellar/gcc/13.2.0/lib/gcc/current/libgomp.dylib /opt/homebrew/Cellar/open-mpi/4.1.5/lib/libmpi.dylib
+build Project_2: C_EXECUTABLE_LINKER__Project_2_Debug CMakeFiles/Project_2.dir/mpi-fish-simuation-scatter-gather.c.o | /opt/homebrew/Cellar/gcc/13.2.0/lib/gcc/current/libgomp.dylib /opt/homebrew/Cellar/open-mpi/4.1.5/lib/libmpi.dylib
   FLAGS = -fopenmp -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
   LINK_FLAGS = -L/opt/homebrew/Cellar/hwloc/2.9.2/lib -L/opt/homebrew/Cellar/libevent/2.1.12/lib
   LINK_LIBRARIES = /opt/homebrew/Cellar/gcc/13.2.0/lib/gcc/current/libgomp.dylib  /opt/homebrew/Cellar/open-mpi/4.1.5/lib/libmpi.dylib
