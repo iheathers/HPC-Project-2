@@ -141,6 +141,10 @@ int main() {
     int provided;
     MPI_Init_thread(NULL, NULL, MPI_THREAD_FUNNELED, &provided);
 
+
+    double start_time, end_time, elapsed_time;
+    start_time = MPI_Wtime();  // Start recording the elapsed time
+
     MPI_Datatype MPI_FISH_TYPE;
 
     // Create MPI type for Fish struct
@@ -286,6 +290,16 @@ int main() {
 
     free(local_fishes);
     MPI_Type_free(&MPI_FISH_TYPE);
+
+    end_time = MPI_Wtime();
+    elapsed_time = end_time - start_time;
+
+    double max_elapsed_time;
+    MPI_Reduce(&elapsed_time, &max_elapsed_time, 1, MPI_DOUBLE, MPI_MAX, 0, MPI_COMM_WORLD);
+
+    if (rank == 0) {
+        printf("Maximum time taken by any process: %f seconds\n", max_elapsed_time);
+    }
 
 
     MPI_Finalize();
