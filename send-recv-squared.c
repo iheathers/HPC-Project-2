@@ -21,9 +21,10 @@ int main(int argc, char *argv[]) {
     while (!i)
         sleep(2);
 
+
     if (rank == 0) {
 
-        for (int i = 1; i < num_processes; i++) {
+        for (int i = 0; i < num_processes; i++) {
             // generate random number
 //            generate random number between 1 to 10
             int random_number = (rand() % 10) + 1;
@@ -34,8 +35,10 @@ int main(int argc, char *argv[]) {
         }
 
 
-        for (int i = 1; i < num_processes; i++) {
+        for (int i = 0; i < num_processes; i++) {
             int recv_sq;
+
+
             MPI_Recv(&recv_sq, 1, MPI_INT, i, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
             printf("Received %d from %d\n", recv_sq, i);
         }

@@ -13,7 +13,9 @@ find_package(MPI REQUIRED)
 find_package(OpenMP REQUIRED)
 
 add_executable(Project_2
-        send-recv-squared.c)
+
+        send-recv-squared.c
+)
 
 # Enable MPI support
 target_include_directories(Project_2 PRIVATE ${MPI_C_INCLUDE_PATH})
