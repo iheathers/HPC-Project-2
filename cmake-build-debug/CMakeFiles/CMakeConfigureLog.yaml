@@ -1660,3 +1660,323 @@ events:
         
       exitCode: 0
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:10 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-J2QA5q"
+      binary: "/Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-J2QA5q"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: /Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-J2QA5q
+        
+        Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja -v cmTC_4ad36 && [1/2] /opt/homebrew/bin/gcc-13  -isystem /opt/homebrew/Cellar/open-mpi/4.1.5/include -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fdiagnostics-color=always -o CMakeFiles/cmTC_4ad36.dir/test_mpi.c.o -c '/Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-J2QA5q/test_mpi.c'
+        [2/2] : && /opt/homebrew/bin/gcc-13 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/Cellar/hwloc/2.9.2/lib -L/opt/homebrew/Cellar/libevent/2.1.12/lib CMakeFiles/cmTC_4ad36.dir/test_mpi.c.o -o cmTC_4ad36  /opt/homebrew/Cellar/open-mpi/4.1.5/lib/libmpi.dylib && :
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:10 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-y4o9w1"
+      binary: "/Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-y4o9w1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: /Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-y4o9w1
+        
+        Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja -v cmTC_2e7de && [1/2] /opt/homebrew/bin/gcc-13  -isystem /opt/homebrew/Cellar/open-mpi/4.1.5/include -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/cmTC_2e7de.dir/test_mpi.c.o -c '/Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-y4o9w1/test_mpi.c'
+        [2/2] : && /opt/homebrew/bin/gcc-13 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/Cellar/hwloc/2.9.2/lib -L/opt/homebrew/Cellar/libevent/2.1.12/lib CMakeFiles/cmTC_2e7de.dir/test_mpi.c.o -o cmTC_2e7de  /opt/homebrew/Cellar/open-mpi/4.1.5/lib/libmpi.dylib && :
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:10 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-AQrtAq"
+      binary: "/Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-AQrtAq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: /Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-AQrtAq
+        
+        Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja -v cmTC_443d1 && [1/2] /opt/homebrew/bin/gcc-13  -isystem /opt/homebrew/Cellar/open-mpi/4.1.5/include -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fdiagnostics-color=always -o CMakeFiles/cmTC_443d1.dir/test_mpi.c.o -c '/Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-AQrtAq/test_mpi.c'
+        [2/2] : && /opt/homebrew/bin/gcc-13 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/Cellar/hwloc/2.9.2/lib -L/opt/homebrew/Cellar/libevent/2.1.12/lib CMakeFiles/cmTC_443d1.dir/test_mpi.c.o -o cmTC_443d1  /opt/homebrew/Cellar/open-mpi/4.1.5/lib/libmpi.dylib && :
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:10 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-MieT3U"
+      binary: "/Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-MieT3U"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: /Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-MieT3U
+        
+        Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja -v cmTC_03e47 && [1/2] /opt/homebrew/bin/gcc-13  -isystem /opt/homebrew/Cellar/open-mpi/4.1.5/include -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/cmTC_03e47.dir/test_mpi.c.o -c '/Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-MieT3U/test_mpi.c'
+        [2/2] : && /opt/homebrew/bin/gcc-13 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/Cellar/hwloc/2.9.2/lib -L/opt/homebrew/Cellar/libevent/2.1.12/lib CMakeFiles/cmTC_03e47.dir/test_mpi.c.o -o cmTC_03e47  /opt/homebrew/Cellar/open-mpi/4.1.5/lib/libmpi.dylib && :
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:10 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wPyUAo"
+      binary: "/Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wPyUAo"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: /Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wPyUAo
+        
+        Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja -v cmTC_70e6d && [1/2] /opt/homebrew/bin/gcc-13  -isystem /opt/homebrew/Cellar/open-mpi/4.1.5/include -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/cmTC_70e6d.dir/test_mpi.c.o -c '/Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wPyUAo/test_mpi.c'
+        [2/2] : && /opt/homebrew/bin/gcc-13 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/Cellar/hwloc/2.9.2/lib -L/opt/homebrew/Cellar/libevent/2.1.12/lib CMakeFiles/cmTC_70e6d.dir/test_mpi.c.o -o cmTC_70e6d  /opt/homebrew/Cellar/open-mpi/4.1.5/lib/libmpi.dylib && :
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:10 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Q3rGSq"
+      binary: "/Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Q3rGSq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: /Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Q3rGSq
+        
+        Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja -v cmTC_a9373 && [1/2] /opt/homebrew/bin/gcc-13  -isystem /opt/homebrew/Cellar/open-mpi/4.1.5/include -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fdiagnostics-color=always -o CMakeFiles/cmTC_a9373.dir/test_mpi.c.o -c '/Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-Q3rGSq/test_mpi.c'
+        [2/2] : && /opt/homebrew/bin/gcc-13 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/Cellar/hwloc/2.9.2/lib -L/opt/homebrew/Cellar/libevent/2.1.12/lib CMakeFiles/cmTC_a9373.dir/test_mpi.c.o -o cmTC_a9373  /opt/homebrew/Cellar/open-mpi/4.1.5/lib/libmpi.dylib && :
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:10 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-M5w51u"
+      binary: "/Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-M5w51u"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: /Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-M5w51u
+        
+        Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja -v cmTC_5e666 && [1/2] /opt/homebrew/bin/gcc-13  -isystem /opt/homebrew/Cellar/open-mpi/4.1.5/include -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fdiagnostics-color=always -o CMakeFiles/cmTC_5e666.dir/test_mpi.c.o -c '/Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-M5w51u/test_mpi.c'
+        [2/2] : && /opt/homebrew/bin/gcc-13 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/Cellar/hwloc/2.9.2/lib -L/opt/homebrew/Cellar/libevent/2.1.12/lib CMakeFiles/cmTC_5e666.dir/test_mpi.c.o -o cmTC_5e666  /opt/homebrew/Cellar/open-mpi/4.1.5/lib/libmpi.dylib && :
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:10 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-U66XFp"
+      binary: "/Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-U66XFp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: /Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-U66XFp
+        
+        Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja -v cmTC_5998f && [1/2] /opt/homebrew/bin/gcc-13  -isystem /opt/homebrew/Cellar/open-mpi/4.1.5/include -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/cmTC_5998f.dir/test_mpi.c.o -c '/Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-U66XFp/test_mpi.c'
+        [2/2] : && /opt/homebrew/bin/gcc-13 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/Cellar/hwloc/2.9.2/lib -L/opt/homebrew/Cellar/libevent/2.1.12/lib CMakeFiles/cmTC_5998f.dir/test_mpi.c.o -o cmTC_5998f  /opt/homebrew/Cellar/open-mpi/4.1.5/lib/libmpi.dylib && :
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:10 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-boDZec"
+      binary: "/Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-boDZec"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: /Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-boDZec
+        
+        Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja -v cmTC_adf48 && [1/2] /opt/homebrew/bin/gcc-13  -isystem /opt/homebrew/Cellar/open-mpi/4.1.5/include -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/cmTC_adf48.dir/test_mpi.c.o -c '/Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-boDZec/test_mpi.c'
+        [2/2] : && /opt/homebrew/bin/gcc-13 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/Cellar/hwloc/2.9.2/lib -L/opt/homebrew/Cellar/libevent/2.1.12/lib CMakeFiles/cmTC_adf48.dir/test_mpi.c.o -o cmTC_adf48  /opt/homebrew/Cellar/open-mpi/4.1.5/lib/libmpi.dylib && :
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:10 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-T2Vvmc"
+      binary: "/Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-T2Vvmc"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: /Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-T2Vvmc
+        
+        Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja -v cmTC_7b695 && [1/2] /opt/homebrew/bin/gcc-13  -isystem /opt/homebrew/Cellar/open-mpi/4.1.5/include -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/cmTC_7b695.dir/test_mpi.c.o -c '/Users/pshre/University Projects/hpc-labs/Project 2/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-T2Vvmc/test_mpi.c'
+        [2/2] : && /opt/homebrew/bin/gcc-13 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/Cellar/hwloc/2.9.2/lib -L/opt/homebrew/Cellar/libevent/2.1.12/lib CMakeFiles/cmTC_7b695.dir/test_mpi.c.o -o cmTC_7b695  /opt/homebrew/Cellar/open-mpi/4.1.5/lib/libmpi.dylib && :
+        
+      exitCode: 0
+...
