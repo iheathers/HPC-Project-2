@@ -10,6 +10,6 @@ Part 2:
 
 experiments with different number of prodcess and threads
 
-Leave print statements in the code to show the results - locally
+Leave print statements in the code to show the results - locally - give local rsults and explain code
 
 Explain that we removed the print statements for the experment in setonix
