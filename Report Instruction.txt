@@ -1,0 +1,15 @@
+For part 1,
+
+Add initial implementation where data was not evenly distributed - add code was done by pritam - from team - give result
+Add implementation where data was evenly distributed but there were issues with deadlock - add code done by Ras with few adjustment - from team - give result and explain
+Add final implementation where data was evenly distributed and there were no issues with deadlock  - provide result and explain
+
+
+
+Part 2:
+
+experiments with different number of prodcess and threads
+
+Leave print statements in the code to show the results - locally
+
+Explain that we removed the print statements for the experment in setonix
