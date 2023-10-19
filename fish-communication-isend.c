@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-#define NUM_FISHES 22
+#define NUM_FISHES 10
 
 typedef struct {
     double x, y;

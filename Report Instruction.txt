@@ -4,7 +4,7 @@ Add initial implementation where data was not evenly distributed - add code was 
 Add implementation where data was evenly distributed but there were issues with deadlock - add code done by Ras with few adjustment - from team - give result and explain
 Add final implementation where data was evenly distributed and there were no issues with deadlock  - provide result and explain
 
-
+also mention about clion and how you used the debugger . elaborate for good result
 
 Part 2:
 

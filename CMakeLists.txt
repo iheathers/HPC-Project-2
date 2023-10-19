@@ -23,6 +23,7 @@ add_executable(Project_2
         #        scatter-demo.c
         #        mpi-fish-simulation.c
         fish-communication-isend.c
+        #        scatter-demo.c
         #        mpi-fish-simuation-scatter-gather.c
         #        final-fish-co
         #        mmunication.c
