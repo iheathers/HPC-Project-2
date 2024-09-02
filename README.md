@@ -35,7 +35,6 @@ This project is part of the CITS5507 High Performance Computing course, focusing
 ## Usage
 
 - Modify the number of processes and threads in the source code to test different configurations.
-- Use the data files provided in the `data/` directory to compare simulation results.
 
 ## Results
 
